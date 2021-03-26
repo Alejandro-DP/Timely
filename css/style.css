@@ -1,0 +1,38 @@
+body{
+    padding-top: 0;
+    margin: 0 0 1px;
+    background: #fff;
+}
+.container-banner{
+    position: relative;
+    width: auto;
+    height: 51px;
+    display: block;
+    background-color: #9b72da;
+    color: #fff;    
+}
+.banner{
+   
+    width: auto;
+    max-width: 1200px;
+    min-width: auto;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    color: #39396e;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.memory{
+    width: 61px;
+    height: 38px;
+    margin-top: 10px;
+}
+.menu{
+    padding-top: 11px;
+    padding-left: 1099px;
+    padding-bottom: 6px;
+    color: #fff;
+    float: right;
+    position: relative;
+}
