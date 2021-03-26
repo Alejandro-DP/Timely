@@ -2,6 +2,7 @@ body{
     padding-top: 0;
     margin: 0 0 1px;
     background: #fff;
+    
 }
 .container-banner{
     position: relative;
@@ -35,4 +36,114 @@ body{
     color: #fff;
     float: right;
     position: relative;
+    cursor: pointer;
 }
+.c-nav{
+    background-color: #9b72da;
+    width: auto;
+    height: 84px;
+    position: sticky;
+    top: 0;
+    z-index: 90;
+    border-top: 1px solid hsla(0,0%,100%,.34);
+    overflow: visible;
+    opacity: 90%;
+}
+.nav-b{
+    width: auto;
+    max-width: 1200px;
+    min-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 90;
+    position: relative;
+    display: flex;
+  
+}
+.logo{
+    height: 42.3px;
+    padding-top: 8px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    float: left;
+    text-decoration: none;
+    color: #333;
+    will-change: opacity;
+    opacity: 1;
+    
+}
+.opc{
+    position: relative;
+    display: flex;
+    float: right;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 210px;
+   
+}
+.opc>div{
+    max-width: 1200px;
+    padding-right: 28px;
+    padding-left: 14px;
+    margin-top: 42px;
+    cursor: pointer;
+}
+.exception1{
+    border-radius: 20px;
+    background-color: #191926;
+    font-family: Circularstd,sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 9px 15px;
+    cursor: pointer;
+}
+.exception1:hover{
+    color: #00d68c;
+}
+.exception2{
+    color: rgb(255, 255, 255);
+    max-width: 1200px;
+    padding-left: 70px;
+    padding-right: 14px;
+    margin-left: 815px;
+    position: absolute; 
+   
+}
+.c-section{
+    display: flex;
+    overflow: hidden;
+    max-height: 600px;
+    min-height: 600px;
+    margin-top: 0;
+    margin-bottom: 31px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #9b72da;
+}
+.lyrics{
+    display: flex;
+    margin-left: 80px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    margin-top: 140px;
+}
+.lyrics > h1{
+    font-family: 'Circularstd book',sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.lyrics > h2{
+    margin-top: -14px;
+    margin-bottom: 41px;
+    color: #fff;
+    font-size: 60px;
+    line-height: 64px;
+}
+
+
